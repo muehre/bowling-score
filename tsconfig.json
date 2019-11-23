@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": true,
+    "noLib": false,
+    "removeComments": true,
+    "sourceMap": true,
+    "strict": true,
+    "outDir": "lib",
+    "target": "es5",
+    "module": "commonjs",
+    "baseUrl": ".",
+    "rootDir": "src",
+    "lib": ["es6"],
+  },
+  "include": ["src"],
+  "exclude": [
+    "node_modules/*",
+    "**/*.test.ts"
+  ]
+}

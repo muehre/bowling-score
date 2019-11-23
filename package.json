@@ -1,0 +1,41 @@
+{
+  "name": "bowling-score",
+  "version": "1.0.0",
+  "description": "Bowling Score Calculator",
+  "author": {
+    "name": "Alexander Mührenberg",
+    "email": "alexander@muehrenberg.de",
+    "url": "https://github.com/muehre"
+  },
+  "license": "ISC",
+  "keywords": [
+    "bowling",
+    "bowling score"
+  ],
+  "homepage": "https://github.com/muehre/bowling-score",
+  "bugs": "https://github.com/muehre/bowling-score/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/muehre/bowling-score"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "main": "lib/index.js",
+  "browser": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "ts-node": "^8.5.2",
+    "typescript": "^3.7.2"
+  }
+}
